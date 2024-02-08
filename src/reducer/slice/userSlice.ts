@@ -1,6 +1,7 @@
+import type { UserSliceType } from "@/types/userType";
 import { createSlice } from "@reduxjs/toolkit";
 
-const initialState = {
+const initialState: UserSliceType = {
   userId: "",
 };
 
